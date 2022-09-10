@@ -1,0 +1,8 @@
+{
+  "name": "GammaStore",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "19daeb6f"
+}
