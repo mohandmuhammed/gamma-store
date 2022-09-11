@@ -12,9 +12,19 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
+  {
+    path: 'on-boarding',
+    loadChildren: () => import('./on-boarding/on-boarding.module').then( m => m.OnBoardingPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+
+
 ];
 
 @NgModule({

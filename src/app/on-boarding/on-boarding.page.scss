@@ -1,0 +1,94 @@
+.background-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: url('../../assets/backgrounds/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+ionic-content{
+
+    --ion-background-color:#fff;
+}
+
+ion-card{
+    text-align: center;
+background: transparent ;
+box-shadow: none;
+offset-block-start:auto;
+
+ion-card-title{
+    font-size:20px;
+    color: #D2EDDD;
+    font-weight: 400;
+    
+}
+.textinside{
+    font-size: 30px;
+    color: #d2eddf;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+ion-card-content{
+    margin-top: 20px;
+.desc{
+    position: relative;
+    
+        text-align: center;
+        width: 100%;
+        font-weight: 400;
+        color: #ff9;
+        font-style: oblique;
+        font-size: 30px;
+    }
+    img{
+        background-color: #D2EDDD;
+    box-shadow: none;
+    height: 5rem;
+    width: 9rem;
+    box-shadow: none;
+    offset-position: 30px;
+    background-position: 39px;
+    text-align: center;
+    background: transparent ;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 85px;
+    }
+    ion-button{
+        background-color: #d3d2ed;
+        box-shadow: none;
+        background: transparent;
+        --border-radius: 50px;
+        --background:#4c2746;
+        height: 4rem;
+        width: 9rem;
+        color:#fff;
+        font-weight: 400;
+        text-transform: none;
+        offset-position: 30px;
+        background-position: 39px;
+        text-align: center;
+        align-content: center;
+        position: relative;
+        font-size: 30px;
+    
+    }
+
+
+@media screen and (min-width:500px) {
+    .background-filter{
+        height: 100%;
+        width: 100%;
+        background: rgba(39, 72, 92, 0.9); 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}}}

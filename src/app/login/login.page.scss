@@ -1,0 +1,104 @@
+ion-content{
+    --ion-background-color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+  .background-pic{
+    height: 100vh;
+    width: 100%;
+    background: url('../../assets/backgrounds/background-login.jpg');
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .background-filter{
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255, 0.8);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+.shape{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: transparent;
+ }
+    img{
+    opacity: 0.2;
+    }
+   
+ 
+    ion-card{
+    height: 30vh;
+
+    margin-top: 130px;
+    background: transparent;
+    box-shadow: none;
+    text-align: center;
+    }
+    ion-card-title{
+        height: 32px;
+        color: #633d6b;
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+    ion-card-subtitle{
+        
+        color: #3c4644;;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+        font-weight: 400;
+    }
+ a{
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 20px;
+            font-weight: 400;
+            color: #0bcfa8;
+            opacity: 0.2;
+        }
+        
+    
+    ion-card-content{
+        margin-top: 30px;    }
+        ion-item{
+            --ion-item-background:transparent;
+            --border-width:0;
+            --inner-border-width:0;
+            --highlight-color-focus:none;
+            align-items: center;
+        } ion-input{
+                width:247px;
+                height: 42px;
+            border-radius: 15px;
+            border:1px solid #0bcfa8;
+            border-spacing: 1px;
+
+            font-size: 14px;
+            font-weight: 400;
+            --padding-start: 30px;
+            }
+        
+    bottom-section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ion-button{
+    height: 53px;
+    width: 247px;
+    font-size: 14px;
+    text-transform: none;
+    --background:#198645;
+    font-weight: 400;
+    --border-redius:15px !important;
+    color: #fff;
+    }
+    span{
+        margin-top: 20px;
+        
+    } 
+}
